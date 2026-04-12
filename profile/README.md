@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <strong>A native terminal IDE for macOS</strong><br/>
+  <strong>The AI-native workspace for macOS</strong><br/>
   Built for developers who live in the terminal.
 </p>
 
