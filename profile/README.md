@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://nexion.one/images/nexion-icon.png" width="80" alt="Nexion" /><br/>
+  <img src="https://nexion.one/images/nexion-icon.svg" width="80" alt="Nexion" /><br/>
   Nexion
 </h1>
 
