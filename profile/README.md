@@ -19,8 +19,7 @@
 
 ## Open Source
 
-Nexion is proprietary software. The components that run outside the application, on your own
-hosts and inside your own toolchain, are published under the MIT License.
+Components of Nexion, developed in the open and released under the MIT License.
 
 | Repository | License | Description |
 |:-------|:---|:------------|
