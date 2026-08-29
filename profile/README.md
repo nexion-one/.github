@@ -19,15 +19,14 @@
 
 ## Open Source
 
-The app is closed. The parts of it that run outside the app are not.
+Nexion is proprietary software. The components that run outside the application, on your own
+hosts and inside your own toolchain, are published under the MIT License.
 
-| Repository | What it is |
-|:-------|:------------|
-| [**remote-agent**](https://github.com/nexion-one/remote-agent) | The Go daemon Nexion installs on hosts you own, over SSH, so opening a remote project is not one round trip per file listing. No third-party dependencies, no network listener, and the security boundary is your own SSH. |
-| [**protocol**](https://github.com/nexion-one/protocol) | The wire contract between the Mac app and the phone: what each optional behaviour changes, payloads recorded from a real session, and an index of all 76 verbs generated from the source. |
-| [**agent-transcripts**](https://github.com/nexion-one/agent-transcripts) | A Swift package that reads what the coding agent CLIs leave on disk. Claude Code, Codex, opencode and Gemini, plus where Claude Code's tokens went. |
-
-All three are MIT.
+| Repository | License | Description |
+|:-------|:---|:------------|
+| [**remote-agent**](https://github.com/nexion-one/remote-agent) | MIT | The Go daemon Nexion installs on hosts you own, over SSH, so opening a remote project is not one round trip per file listing. No third-party dependencies, no network listener, and authentication is your own SSH. |
+| [**protocol**](https://github.com/nexion-one/protocol) | MIT | The wire contract between the Mac app and the phone: capability negotiation, payloads recorded from a real session, and an index of all 76 verbs generated from the source. |
+| [**agent-transcripts**](https://github.com/nexion-one/agent-transcripts) | MIT | A Swift package for reading what the coding agent CLIs leave on disk: Claude Code, Codex, opencode and Gemini transcripts, and Claude Code's token usage. |
 
 ---
 
