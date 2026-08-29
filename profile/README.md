@@ -10,16 +10,31 @@
 
 <p align="center">
   <a href="https://nexion.one">Website</a> &middot;
+  <a href="#open-source">Open Source</a> &middot;
   <a href="https://nexion.one/repository/plugins">Plugin Repository</a> &middot;
   <a href="https://github.com/nexion-one/Nexion/issues">Support</a>
 </p>
 
 ---
 
+## Open Source
+
+The app is closed. The parts of it that run outside the app are not.
+
+| Repository | What it is |
+|:-------|:------------|
+| [**remote-agent**](https://github.com/nexion-one/remote-agent) | The Go daemon Nexion installs on hosts you own, over SSH, so opening a remote project is not one round trip per file listing. No third-party dependencies, no network listener, and the security boundary is your own SSH. |
+| [**protocol**](https://github.com/nexion-one/protocol) | The wire contract between the Mac app and the phone: what each optional behaviour changes, payloads recorded from a real session, and an index of all 76 verbs generated from the source. |
+| [**agent-transcripts**](https://github.com/nexion-one/agent-transcripts) | A Swift package that reads what the coding agent CLIs leave on disk. Claude Code, Codex, opencode and Gemini, plus where Claude Code's tokens went. |
+
+All three are MIT.
+
+---
+
 ## Plugins
 
 Nexion ships with a growing ecosystem of official plugins.  
-Each plugin is a self-contained `.nexionplugin` bundle — drop it into `~/.nexion/Plugins/` and it just works.
+Each plugin is a self-contained `.nexionplugin` bundle: drop it into `~/.nexion/Plugins/` and it just works.
 
 > Browse the full collection at [nexion.one/repository/plugins](https://nexion.one/repository/plugins)
 
