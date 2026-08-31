@@ -25,6 +25,7 @@ Components of Nexion, developed in the open and released under the MIT License.
 |:-------|:---|:------------|
 | [**remote-agent**](https://github.com/nexion-one/remote-agent) | MIT | The Go daemon Nexion installs on hosts you own, over SSH, so opening a remote project is not one round trip per file listing. No third-party dependencies, no network listener, and authentication is your own SSH. |
 | [**protocol**](https://github.com/nexion-one/protocol) | MIT | The wire contract between the Mac app and the phone: capability negotiation, payloads recorded from a real session, and an index of all 76 verbs generated from the source. |
+| [**SpacesRail**](https://github.com/nexion-one/SpacesRail) | MIT | The spaces sidebar as a SwiftUI package: a row of icons, a page above each one, and the two finger swipe between them. A window level scroll monitor, because AppKit gives the event to the deepest view that handles it and a list would take every swipe. |
 | [**agent-transcripts**](https://github.com/nexion-one/agent-transcripts) | MIT | A Swift package for reading what the coding agent CLIs leave on disk: Claude Code, Codex, opencode and Gemini transcripts, and Claude Code's token usage. |
 
 ---
